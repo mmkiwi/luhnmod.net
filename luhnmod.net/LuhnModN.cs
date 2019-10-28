@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+using System;
+>>>>>>> eaf00ea8a1791b5c33474a132a531aa28624a7af
 using System.Collections.Generic;
 
 namespace LuhnModN
 {
+<<<<<<< HEAD
     public class LuhnModN : LuhnModN<char>
+=======
+   public class LuhnModN : LuhnModN<char>
+>>>>>>> eaf00ea8a1791b5c33474a132a531aa28624a7af
     {
         public string ValidChars { get; private set; }
 
@@ -27,12 +35,23 @@ namespace LuhnModN
 
         public char GenerateCheckDigit(string checkString)
         {
+<<<<<<< HEAD
             return GenerateCheckDigit(checkString);
+=======
+            return GenerateCheckDigit(checkString.ToCharArray());
+>>>>>>> eaf00ea8a1791b5c33474a132a531aa28624a7af
         }
 
         public bool CheckValue(string checkString)
         {
+<<<<<<< HEAD
             return CheckValue(checkString);
         }
     }
 }
+=======
+            return CheckValue(checkString.ToCharArray());
+        }
+    }
+}
+>>>>>>> eaf00ea8a1791b5c33474a132a531aa28624a7af
